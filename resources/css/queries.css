@@ -1,0 +1,98 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+
+    
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+
+    
+    h1 { font-size: 250%; }
+    h2 { font-size: 150%; }
+    
+    
+    .goal .text-wrapper {
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    
+    .what .blend,
+    .what .span-1-of-5 {
+        display: none;
+    }
+    .what .span-3-of-5 {
+        width: 100%;
+    }
+    .target-right {
+        font-size: 80%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .target-right h3 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .meet-showcase li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    .agile-icons i {
+        font-size: 100px;
+        display: block;
+    }
+    
+    .logo,
+    .logo-black,
+    .main-nav {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    .main-nav {
+        padding-bottom: 10px;
+    }
+    .logo,
+    .logo-black {
+        margin-top: 10px;
+    }
+    .under-icons {
+        display: none;  
+    }
+    .agile {
+        display: none;
+    }
+    
+}
+
